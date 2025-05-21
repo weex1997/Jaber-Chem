@@ -14,12 +14,6 @@
 <br/>
 <br/>
 
-<div style="display:flex;flex-direction:row;justify-content:center;">
-    <img height="140"  src="https://streak-stats.demolab.com/?user=salma-elbakkouri&count private=true&theme=react&border_radius-10" alt="streak stats" style="margin: 0" />
-  <img height="140"  src="https://github-readme-stats-salesp07.vercel.app/api?username=salma-elbakkouri&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=5" alt="readme stats" style="margin: 0" /> 
-  <img height="140"  src="https://github-readme-stats.vercel.app/api/top-langs?username=salma-elbakkouri&show_icons=true&locale=en&layout=compact&theme=react&border_radius=4&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="salma-elbakkouri" style="margin: 0" />
-</div>
-
 ## Project Info
 **Role:** Game Programmer
 <br/>
