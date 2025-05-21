@@ -22,7 +22,7 @@ During my time at GamifierSA, I worked on the Jaber Chem educational project, wh
 
 <div style="display: flex; gap: 10px;">
   <img src="Assets/images/Screenshot 2024-01-29 110729.png" high="100"/>
-  <img src="Assets/images/unnamed.png" high="300"/>
+  <img src="Assets/images/unnamed.png" high="100"/>
 </div>
 
 ## &nbsp;
