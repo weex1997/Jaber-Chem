@@ -4,7 +4,7 @@
     <img align="left" width="200" height="200" src="Assets/images/Screenshot 2024-01-29 110631.png"><br/>
     Jaber Chem
 
-  [![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=M_whzkhv1yM&feature=youtu.be)
+  [![Game Overview](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=M_whzkhv1yM&feature=youtu.be)
 
   </h3>
 </div>   
