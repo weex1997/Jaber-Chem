@@ -67,8 +67,8 @@ To represent the orbital notation, it is necessary to have knowledge of the prin
 
 <div style="display: flex; gap: 10px;">
   <img src="Assets/images/7363e220-6f7b-4f90-94a3-a505b9a13a5c-1658749759354016.png" height="200"/>
-  <img src="Assets/images/1522190_569352_ans_4712394340c6455aa553633fcd6789dc.jpeg" height="200"/>
   <img src="Assets/images/Screenshot 2024-01-29 110631.png" height="200"/>
+    <img src="Assets/images/1522190_569352_ans_4712394340c6455aa553633fcd6789dc.jpeg" height="200"/>
 </div>
 
 I have created a sample calculation to automatically generate the orbital notation for each shell. 
