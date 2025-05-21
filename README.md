@@ -98,7 +98,7 @@ To represent the orbital notation, it is necessary to have knowledge of the prin
 
 I have created a sample calculation to automatically generate the orbital notation for each shell. 
 
-[ElectronsSpawner.cs](https://github.com/weex1997/Jaber-Chem/blob/088739403c19c804110fa455946ae19c55676650/Assets/Scripts/ElectronsSpawner.cs#L24)
+[UIText.cs](https://github.com/weex1997/Jaber-Chem/blob/5cf011c869a50b744692fbd7717edb91b78b8b79/Assets/Scripts/UIText.cs#L37)
 
 ```csharp
 public void orbitalNotation()
@@ -143,149 +143,7 @@ public void orbitalNotation()
 
         }
     }
-
-    if (electronsInShell > 2)
-    {
-        electronsInShell -= 2; //minus the previous subshell max electron
-        maxSubshellElectron = 6;
-        subshellName = "p";
-
-        if (electronsInShell >= maxSubshellElectron)
-        {
-            currentElectrons = maxSubshellElectron;
-        }
-        else
-        {
-            currentElectrons = electronsInShell;
-        }
-
-        switch (shell)
-        {
-            case 0:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 1:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 2:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 3:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 4:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-
-        }
-    }
-
-    if (electronsInShell > 8)
-    {
-        electronsInShell -= 6; //minus the previous subshell max electron
-        maxSubshellElectron = 10;
-        subshellName = "d";
-
-        if (electronsInShell >= maxSubshellElectron)
-        {
-            currentElectrons = maxSubshellElectron;
-        }
-        else
-        {
-            currentElectrons = electronsInShell;
-        }
-
-        switch (shell)
-        {
-            case 0:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 1:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 2:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 3:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 4:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-
-        }
-    }
-    if (electronsInShell > 18)
-    {
-        electronsInShell -= 10; //minus the previous subshell max electron
-        maxSubshellElectron = 14;
-        subshellName = "f";
-
-        if (electronsInShell >= maxSubshellElectron)
-        {
-            currentElectrons = maxSubshellElectron;
-        }
-        else
-        {
-            currentElectrons = electronsInShell;
-        }
-
-        switch (shell)
-        {
-            case 0:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 1:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 2:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 3:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 4:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-
-        }
-    }
-    if (electronsInShell > 32)
-    {
-        electronsInShell -= 14; //minus the previous subshell max electron
-        maxSubshellElectron = 18;
-        subshellName = "g";
-
-        if (electronsInShell >= maxSubshellElectron)
-        {
-            currentElectrons = maxSubshellElectron;
-        }
-        else
-        {
-            currentElectrons = electronsInShell;
-        }
-
-        switch (shell)
-        {
-            case 0:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 1:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 2:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 3:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-            case 4:
-                subshell.text += " " + shell + subshellName + "<sup>" + currentElectrons + "</sup>";
-                break;
-
-        }
-    }
-
+........
 }
 ```
 
