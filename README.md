@@ -7,6 +7,7 @@
 </div>   
 
 <br/>
+<br/>
 
 <br/>
 
@@ -52,6 +53,7 @@ Here's a summary of the number of electrons in each shell:
 - Shell N (n = 4): Maximum 32 electrons
 - Shell O (n = 5): Maximum 50 electrons
 - Shell P (n = 6): Maximum 72 electrons
+<br/>
 I devised a calculation to distribute electrons in a circular pattern. Considering that a complete circle consists of 360 degrees, I divided this value by the number of electrons in the shell. This allowed me to spawn an electron point for each segment determined by the calculation.
 
 ## &nbsp;
