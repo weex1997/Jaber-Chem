@@ -6,7 +6,7 @@
 <br/>
 <br/>
     
-[![YouTube](https://img.shields.io/badge/Watch-YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Game Overview](https://img.shields.io/badge/Watch-YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 
   </h3>
