@@ -44,13 +44,16 @@ During my time at GamifierSA, I worked on the Jaber Chem educational project, wh
 
 ###  Main Mechanics
 
-- The game randomly generates a **4-digit number** using digits from 0 to 9, with **no repeating digits**.
-- Players attempt to guess this number.
-- After each guess:
-  - A **bull** means a correct digit in the correct position.
-  - A **cow** means a correct digit but in the wrong position.
-
-The player uses these clues to narrow down the correct number through logic and deduction.
+##Number of electrons in each shell
+The number of electrons in each shell follows a pattern based on the quantum mechanical model of the atom. The maximum number of electrons that can occupy a particular shell is given by the formula 2n2, where "n" represents the shell number.
+Here's a summary of the number of electrons in each shell:
+- Shell K (n = 1): Maximum 2 electrons
+- Shell L (n = 2): Maximum 8 electrons
+- Shell M (n = 3): Maximum 18 electrons
+- Shell N (n = 4): Maximum 32 electrons
+- Shell O (n = 5): Maximum 50 electrons
+- Shell P (n = 6): Maximum 72 electrons
+I devised a calculation to distribute electrons in a circular pattern. Considering that a complete circle consists of 360 degrees, I divided this value by the number of electrons in the shell. This allowed me to spawn an electron point for each segment determined by the calculation.
 
 ## &nbsp;
 
