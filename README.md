@@ -61,9 +61,23 @@ I devised a calculation to distribute electrons in a circular pattern. Consideri
 </div>
 
 ```csharp
-void Start() {
-    Debug.Log("Hello, GitHub!");
-}
+public void Spawner()
+ {
+     float Angle = 360.0f / electronNumbers;
+     float radius = 1.5f;
+
+     for (float i = 0; i < 360; i+= Angle)
+     {
+         Vector2 spawnPosition;
+         
+         spawnPosition.x = (radius * Mathf.Cos(i * Mathf.Deg2Rad)) + midillAtom.position.x;
+         spawnPosition.y = (radius * Mathf.Sin(i * Mathf.Deg2Rad)) + midillAtom.position.y;
+
+         GameObject electronPostion = Instantiate(electronPrefab, spawnPosition, Quaternion.identity);
+         electronPostion.transform.SetParent(midillAtom);
+     }
+ }
+```
 
 ### Orbital Notation:
 
