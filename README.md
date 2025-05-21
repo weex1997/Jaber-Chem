@@ -1,79 +1,81 @@
-# ⚗️ Jaber Chem
+<!-- PROJECT LOGO -->
+<div>
+  <h3>
+    <img align="left" width="200" height="200" src="images/f11805456d9f3d08.png"><br/>
+    Jaber Chem
+  </h3>
+</div>   
 
-**Jaber Chem** is an interactive educational game that makes learning chemistry fun and engaging. Built as part of a team at Gamifier, the project features a series of mini-games focused on teaching concepts like electron configuration and orbital notation. Inspired by *WarioWare, Inc.: Mega Microgames!* (2003), it delivers fast-paced, chemistry-themed gameplay.
+<br/>
 
----
+<br/>
 
-## 🧪 Overview
+<br/>
 
-- **Objective:** Teach chemistry concepts through interactive gameplay.
-- **Gameplay Elements:** Includes mini-games that focus on:
-  - Electron shell filling
-  - Orbital notations
-  - Visual representation of atoms
-- **Target Audience:** Students and learners interested in chemistry.
+## &nbsp;
 
----
 
-## 🛠 Project Info
 
-- **Role:** Game Programmer  
-- **Team Size:** 8  
-- **Time Frame:** 2 weeks  
-- **Engine:** Unity (C#)  
-- **Video Demo:** [Watch on YouTube](https://www.youtube.com/watch?v=M_whzkhv1yM)
+### Introduction
 
----
+During my time at Gamfire, I devoted my efforts to a Jaber chem project that involved the creation of an Electron Configuration Game. This game drew inspiration from WarioWare, Inc.: Mega Microgames! 2003. My main focus throughout the project was to develop and successfully implement the game.
 
-## 🔬 Game Features
+## &nbsp;
 
-### 🔹 Electron Configuration
+### Project Info
+**Role:** Solo Developer 
+<br/>
+**Duration:** 2 week
+<br/>
+**Tech:** Unity, C#, PlayFab, DoTween
 
-Electrons are arranged into shells following the formula `2n²`, where **n** is the shell level:
+## &nbsp;
 
-| Shell | Max Electrons |
-|-------|----------------|
-| K (n=1) | 2             |
-| L (n=2) | 8             |
-| M (n=3) | 18            |
-| N (n=4) | 32            |
-| O (n=5) | 50            |
-| P (n=6) | 72            |
+###  Main Mechanics
 
-**Implementation:**  
-Electrons are visually distributed in a circular pattern. For example:
-- Total circle: 360°
-- Divide by number of electrons to calculate spacing
-- Spawn an electron at each angle increment
+- The game randomly generates a **4-digit number** using digits from 0 to 9, with **no repeating digits**.
+- Players attempt to guess this number.
+- After each guess:
+  - A **bull** means a correct digit in the correct position.
+  - A **cow** means a correct digit but in the wrong position.
 
-This provides a dynamic and visually clear representation of atomic structure.
+The player uses these clues to narrow down the correct number through logic and deduction.
 
----
+## &nbsp;
 
-### 🔸 Orbital Notation
+### Features
 
-Orbital notation takes into account:
-- Principal energy level (shell)
-- Subshell (s, p, d, f)
-- Maximum electrons per subshell
+#### High Score System with PlayFab
 
-**Automation:**  
-A script was created to automatically calculate and display orbital notations for each element, making the game adaptable and educational.
+<div style="display: flex; gap: 10px;">
+  <img src="images/Screenshot 2024-01-27 220106.png" width="300"/>
+  <img src="images/Screenshot 2024-01-27 220254.png" width="300"/>
+</div>
 
----
+I integrated the **PlayFab API** to allow player names and high scores to be saved online.  
+A custom service manager sends requests from Unity to the PlayFab server, storing player data and displaying a leaderboard.  
+Players can also generate random names for a faster experience.
 
-## 📽 Media
+## &nbsp;
 
-🎥 [Gameplay Video](https://www.youtube.com/watch?v=M_whzkhv1yM)
+#### Share Results on Social Media
 
----
+<img src="images/photo_2024-01-27_22-12-28.jpg" width="300"/>
 
-## 💬 Credits
+To increase player engagement, I added a feature that allows players to **share their game results** on social media.  
+I captured all guesses and progress in a single camera view and generated a combined screenshot. Players can then share this image with a custom message.
 
-Developed during my time at **Gamifier** as part of a team of 8. I focused on:
-- Game design
-- Code implementation for electron logic
-- Orbital distribution algorithms
+## &nbsp;
 
----
+#### Enhanced Guessing Aids
 
+<img src="images/Screenshot 2024-01-29 110840.png" width="300"/>
+
+To help players guess more effectively, I added interactive **analytics tools**:
+- Players can **click numbers** to highlight or mark them.
+- Two types of marks are supported: `"X"` for ruled-out digits and `"O"` for likely candidates.
+
+> [!NOTE]
+> **Installation GUIDE:**
+> <br/>
+> Unity Version: 2020.3.34f1
