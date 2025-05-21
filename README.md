@@ -60,25 +60,30 @@ I devised a calculation to distribute electrons in a circular pattern. Consideri
   <img src="Assets/images/image-20240128-051135.png" height="200"/>
 </div>
 <br/>
-<a href="https://github.com/weex1997/Jaber-Chem/blob/088739403c19c804110fa455946ae19c55676650/Assets/Scripts/ElectronsSpawner.cs#L24">ElectronsSpawner.cs</a>
+
+[ElectronsSpawner.cs](https://github.com/weex1997/Jaber-Chem/blob/088739403c19c804110fa455946ae19c55676650/Assets/Scripts/ElectronsSpawner.cs#L24)
 
 ```csharp
 public void Spawner()
- {
-     float Angle = 360.0f / electronNumbers;
-     float radius = 1.5f;
+    {
 
-     for (float i = 0; i < 360; i+= Angle)
-     {
-         Vector2 spawnPosition;
-         
-         spawnPosition.x = (radius * Mathf.Cos(i * Mathf.Deg2Rad)) + midillAtom.position.x;
-         spawnPosition.y = (radius * Mathf.Sin(i * Mathf.Deg2Rad)) + midillAtom.position.y;
+        float Angle = 360.0f / electronNumbers;
 
-         GameObject electronPostion = Instantiate(electronPrefab, spawnPosition, Quaternion.identity);
-         electronPostion.transform.SetParent(midillAtom);
-     }
- }
+        for (float i = 0; i < 360; i += Angle)
+        {
+
+            Vector2 spawnPosition;
+
+            spawnPosition.x = (radius * Mathf.Cos(i * Mathf.Deg2Rad)) + midillAtom.position.x;
+            spawnPosition.y = (radius * Mathf.Sin(i * Mathf.Deg2Rad)) + midillAtom.position.y;
+
+            GameObject electronPostion = Instantiate(electronPrefab, spawnPosition, Quaternion.identity);
+            electronPostion.transform.SetParent(midillAtom);
+            triangle.allElectronsPosisions.Add(electronPostion.transform);
+            triangle.StartFirstPostion();
+        }
+
+    }
 ```
 
 ### Orbital Notation:
