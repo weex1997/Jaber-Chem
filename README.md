@@ -57,7 +57,9 @@ Here's a summary of the number of electrons in each shell:
 - Shell P (n = 6): Maximum 72 electrons
 <br/>
 I devised a calculation to distribute electrons in a circular pattern. Considering that a complete circle consists of 360 degrees, I divided this value by the number of electrons in the shell. This allowed me to spawn an electron point for each segment determined by the calculation.
+
 <br/>
+
 <div style="display: flex; gap: 10px;">
   <img src="Assets/images/White Blue Modern Pie Chart Graph.png" height="200"/>
   <img src="Assets/images/image-20240128-051135.png" height="200"/>
