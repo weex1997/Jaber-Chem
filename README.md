@@ -13,7 +13,21 @@
 <br/>
 
 ## &nbsp;
+### Project Info
+**Role:** Game Programmer
+<br/>
+**Team Size:** 8
+<br/>
+**Duration:** 2 week
+<br/>
+**Tech:** Unity, C#, DoTween
 
+> [!NOTE]
+> **Installation GUIDE:**
+> <br/>
+> Unity Version: 2020.3.34f1
+
+## &nbsp;
 
 
 ### Introduction
@@ -27,16 +41,6 @@ During my time at GamifierSA, I worked on the Jaber Chem educational project, wh
 
 ## &nbsp;
 
-### Project Info
-**Role:** Game Programmer
-<br/>
-**Team Size:** 8
-<br/>
-**Duration:** 2 week
-<br/>
-**Tech:** Unity, C#, DoTween
-
-## &nbsp;
 
 ###  Main Mechanics
 
@@ -82,7 +86,4 @@ To help players guess more effectively, I added interactive **analytics tools**:
 - Players can **click numbers** to highlight or mark them.
 - Two types of marks are supported: `"X"` for ruled-out digits and `"O"` for likely candidates.
 
-> [!NOTE]
-> **Installation GUIDE:**
-> <br/>
-> Unity Version: 2020.3.34f1
+
