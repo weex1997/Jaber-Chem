@@ -3,6 +3,9 @@
   <h3>
     <img align="left" width="200" height="200" src="Assets/images/Screenshot 2024-01-29 110631.png"><br/>
     Jaber Chem
+
+  [![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
   </h3>
 </div>   
 
@@ -33,7 +36,7 @@
 ## Introduction
 
 During my time at GamifierSA, I worked on the Jaber Chem educational project, where I was responsible for programming an Electron Configuration mini-game. The game was inspired by the rapid-fire format of WarioWare, Inc.: Mega Microgames! (2003) and aimed to teach chemistry concepts through fast-paced challenges. My primary role was to implement the game's mechanics, logic, and functionality based on the design specifications provided by the team.
-
+<br/>
 <div style="display: flex; gap: 10px;">
   <img src="Assets/images/Screenshot 2024-01-29 110729.png" height="200"/>
   <img src="Assets/images/unnamed.png" height="200"/>
@@ -54,7 +57,7 @@ Here's a summary of the number of electrons in each shell:
 - Shell P (n = 6): Maximum 72 electrons
 <br/>
 I devised a calculation to distribute electrons in a circular pattern. Considering that a complete circle consists of 360 degrees, I divided this value by the number of electrons in the shell. This allowed me to spawn an electron point for each segment determined by the calculation.
-
+<br/>
 <div style="display: flex; gap: 10px;">
   <img src="Assets/images/White Blue Modern Pie Chart Graph.png" height="200"/>
   <img src="Assets/images/image-20240128-051135.png" height="200"/>
