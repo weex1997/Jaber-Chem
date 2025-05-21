@@ -6,9 +6,7 @@
 <br/>
 <br/>
     
-<a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
-  <img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube" />
-</a>
+[![YouTube](https://img.shields.io/badge/Watch-YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 
   </h3>
