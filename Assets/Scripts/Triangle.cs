@@ -1,36 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
-using System.Linq;
-using static UnityEditor.Progress;
-using System;
-using Unity.VisualScripting;
-using static UnityEngine.GraphicsBuffer;
+
 
 public class Triangle : MonoBehaviour
 {
-    public Transform[] allChild;
     public List<Transform> allElectronsPosisions = new List<Transform>();
-
-
-
-    private void Awake()
-    {
-
-
-        allChild = transform.parent.GetComponentsInChildren<Transform>();
-        foreach (Transform child in allChild)
-        {
-            if (child.gameObject.tag == "Position")
-            {
-                allElectronsPosisions.Add(child);
-
-            }
-
-        }
-    }
-    private void Start()
+    public void StartFirstPostion()
     {
         Vector3 targetDir = Vector3.zero;
         transform.position = allElectronsPosisions[ElectronConfigurationController.Instance.ElectronHit].position;
@@ -53,7 +29,6 @@ public class Triangle : MonoBehaviour
 
 
             ElectronConfigurationController.Instance.ElectronHit += 1;
-            Debug.Log("hiii");
             Vector3 targetDir = Vector3.zero;
             transform.position = allElectronsPosisions[ElectronConfigurationController.Instance.ElectronHit].position;
             var dir = targetDir - transform.position;
@@ -63,7 +38,7 @@ public class Triangle : MonoBehaviour
         }
         else if (ElectronConfigurationController.Instance.shellNumber < ElectronConfigurationController.Instance.ElementShellNumber)
         {
-            UIText.Instance.subshellName();
+            UIText.Instance.orbitalNotation();
             ElectronConfigurationController.Instance.shellNumber += 1;
             ElectronConfigurationController.Instance.ElectronHit = 0;
             ElectronConfigurationController.Instance.ChangeShell();
