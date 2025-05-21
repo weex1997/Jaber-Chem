@@ -12,8 +12,7 @@
 
 <br/>
 
-## &nbsp;
-### Project Info
+## Project Info
 **Role:** Game Programmer
 <br/>
 **Team Size:** 8
@@ -27,10 +26,9 @@
 > <br/>
 > Unity Version: 2020.3.34f1
 
-## &nbsp;
 
 
-### Introduction
+## Introduction
 
 During my time at GamifierSA, I worked on the Jaber Chem educational project, where I was responsible for programming an Electron Configuration mini-game. The game was inspired by the rapid-fire format of WarioWare, Inc.: Mega Microgames! (2003) and aimed to teach chemistry concepts through fast-paced challenges. My primary role was to implement the game's mechanics, logic, and functionality based on the design specifications provided by the team.
 
@@ -39,12 +37,11 @@ During my time at GamifierSA, I worked on the Jaber Chem educational project, wh
   <img src="Assets/images/unnamed.png" height="200"/>
 </div>
 
-## &nbsp;
 
 
-###  Main Mechanics
+##  Main Mechanics
 
-##Number of electrons in each shell
+### Number of electrons in each shell
 The number of electrons in each shell follows a pattern based on the quantum mechanical model of the atom. The maximum number of electrons that can occupy a particular shell is given by the formula 2n2, where "n" represents the shell number.
 Here's a summary of the number of electrons in each shell:
 - Shell K (n = 1): Maximum 2 electrons
