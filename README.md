@@ -38,7 +38,7 @@
 
 ## Introduction
 
-During my time at GamifierSA, I worked on the Jaber Chem educational project, where I was responsible for programming an Electron Configuration mini-game. The game was inspired by the rapid-fire format of WarioWare, Inc.: Mega Microgames! (2003) and aimed to teach chemistry concepts through fast-paced challenges. My primary role was to implement the game's mechanics, logic, and functionality based on the design specifications provided by the team.
+This mini-game was developed with GamifierSA, I worked on the Jaber Chem educational project, where I was responsible for programming an Electron Configuration mini-game. The game was inspired by the rapid-fire format of WarioWare, Inc.: Mega Microgames! (2003) and aimed to teach chemistry concepts through fast-paced challenges. My primary role was to implement the game's mechanics, logic, and functionality based on the design specifications provided by the team.
 <br/>
 <div style="display: flex; gap: 10px;">
   <img src="Assets/images/Screenshot 2024-01-29 110729.png" height="200"/>
@@ -159,6 +159,5 @@ public void orbitalNotation()
 ## Credits
 
 Developed during my time at **Gamifier** as part of a team of 8. I focused on:
-- One mini game
 - Code implementation for electron logic
 - Orbital distribution algorithms
