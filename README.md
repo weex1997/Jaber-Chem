@@ -92,6 +92,7 @@ public void Spawner()
 ### Orbital Notation:
 
 To represent the orbital notation, it is necessary to have knowledge of the principal energy level (shell), the specific subshell (s, p, d, f), and the maximum number of electrons that can occupy each subshell.
+<br/>
 
 <div style="display: flex; gap: 10px;">
   <img src="Assets/images/7363e220-6f7b-4f90-94a3-a505b9a13a5c-1658749759354016.png" height="200"/>
