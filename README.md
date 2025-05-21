@@ -18,16 +18,23 @@
 
 ### Introduction
 
-During my time at Gamfire, I devoted my efforts to a Jaber chem project that involved the creation of an Electron Configuration Game. This game drew inspiration from WarioWare, Inc.: Mega Microgames! 2003. My main focus throughout the project was to develop and successfully implement the game.
+During my time at GamifierSA, I worked on the Jaber Chem educational project, where I was responsible for programming an Electron Configuration mini-game. The game was inspired by the rapid-fire format of WarioWare, Inc.: Mega Microgames! (2003) and aimed to teach chemistry concepts through fast-paced challenges. My primary role was to implement the game's mechanics, logic, and functionality based on the design specifications provided by the team.
+
+<div style="display: flex; gap: 10px;">
+  <img src="Assets/images/Screenshot 2024-01-29 110729.png" width="300"/>
+  <img src="Assets/images/unnamed.png" width="300"/>
+</div>
 
 ## &nbsp;
 
 ### Project Info
-**Role:** Solo Developer 
+**Role:** Game Programmer
+<br/>
+**Team Size:** 8
 <br/>
 **Duration:** 2 week
 <br/>
-**Tech:** Unity, C#, PlayFab, DoTween
+**Tech:** Unity, C#, DoTween
 
 ## &nbsp;
 
