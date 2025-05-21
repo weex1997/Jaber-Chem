@@ -3,8 +3,8 @@
   <h3>
     <img align="left" width="200" height="200" src="Assets/images/Screenshot 2024-01-29 110631.png"><br/>
     Jaber Chem
-
-[![YouTube Video Title](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+<br/>
+🎥 [Watch on YouTube]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://www.youtube.com/watch?v=M_whzkhv1yM))
 
   </h3>
 </div>   
