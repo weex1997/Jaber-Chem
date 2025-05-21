@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <div>
   <h3>
-    <img align="left" width="200" height="200" src="images/f11805456d9f3d08.png"><br/>
+    <img align="left" width="200" height="200" src="Assets/images/Screenshot 2024-01-29 110631.png"><br/>
     Jaber Chem
   </h3>
 </div>   
@@ -56,38 +56,26 @@ Here's a summary of the number of electrons in each shell:
 <br/>
 I devised a calculation to distribute electrons in a circular pattern. Considering that a complete circle consists of 360 degrees, I divided this value by the number of electrons in the shell. This allowed me to spawn an electron point for each segment determined by the calculation.
 
-## &nbsp;
-
-### Features
-
-#### High Score System with PlayFab
-
 <div style="display: flex; gap: 10px;">
-  <img src="images/Screenshot 2024-01-27 220106.png" width="300"/>
-  <img src="images/Screenshot 2024-01-27 220254.png" width="300"/>
+  <img src="Assets/images/White Blue Modern Pie Chart Graph.png" height="200"/>
+  <img src="Assets/images/image-20240128-051135.png" height="200"/>
 </div>
 
-I integrated the **PlayFab API** to allow player names and high scores to be saved online.  
-A custom service manager sends requests from Unity to the PlayFab server, storing player data and displaying a leaderboard.  
-Players can also generate random names for a faster experience.
+### Orbital Notation:
 
-## &nbsp;
+To represent the orbital notation, it is necessary to have knowledge of the principal energy level (shell), the specific subshell (s, p, d, f), and the maximum number of electrons that can occupy each subshell.
 
-#### Share Results on Social Media
+<div style="display: flex; gap: 10px;">
+  <img src="Assets/images/7363e220-6f7b-4f90-94a3-a505b9a13a5c-1658749759354016.png" height="200"/>
+  <img src="Assets/images/1522190_569352_ans_4712394340c6455aa553633fcd6789dc.jpeg" height="200"/>
+  <img src="Assets/images/Screenshot 2024-01-29 110631.png" height="200"/>
+</div>
 
-<img src="images/photo_2024-01-27_22-12-28.jpg" width="300"/>
+I have created a sample calculation to automatically generate the orbital notation for each shell. 
 
-To increase player engagement, I added a feature that allows players to **share their game results** on social media.  
-I captured all guesses and progress in a single camera view and generated a combined screenshot. Players can then share this image with a custom message.
+## Credits
 
-## &nbsp;
-
-#### Enhanced Guessing Aids
-
-<img src="images/Screenshot 2024-01-29 110840.png" width="300"/>
-
-To help players guess more effectively, I added interactive **analytics tools**:
-- Players can **click numbers** to highlight or mark them.
-- Two types of marks are supported: `"X"` for ruled-out digits and `"O"` for likely candidates.
-
-
+Developed during my time at **Gamifier** as part of a team of 8. I focused on:
+- One mini game
+- Code implementation for electron logic
+- Orbital distribution algorithms
