@@ -32,7 +32,7 @@
 > [!NOTE]
 > **Installation GUIDE:**
 > <br/>
-> Unity Version: 2020.3.34f1
+> Unity Version: 2021.3.13f1
 
 
 
